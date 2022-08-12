@@ -6,13 +6,13 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "MosaicBirds",
-  "SYMBOL": "MOSAIC",
-  "MAX_SUPPLY": 6969,
-  "WEI_COST": 6900000000000000,
-  "DISPLAY_COST": 0.0069,
+  "NFT_NAME": "MetaLamboz",
+  "SYMBOL": "LAMBO",
+  "MAX_SUPPLY": 420,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/mosaicbirds",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metalamboz",
   "SHOW_BACKGROUND": true
 }

@@ -439,7 +439,7 @@ function App() {
 
                             }}
                         >
-                            Everyone may mint 1 Mosaic Bird free of charge, but if you are extraordinarily fancy, you may mint additional Birds for .0069 each.
+                            METALAMBBBBOOOOOOZZZZ
                         </s.TextDescription>
                     </div>
                 </div>
@@ -541,7 +541,7 @@ function App() {
                                     }}
                                 >
 
-                                    3 free NFTs per wallet. Extras are .0069 each
+                                    1 FREE lambo mint per whitelisted wallet.
 
                                 </s.TextTitle>
                                 <s.SpacerXSmall />
@@ -649,19 +649,6 @@ function App() {
                                                 +
                                             </StyledRoundButton>
                                         </s.Container>
-                                        <s.SpacerSmall />
-                                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                                            <StyledButton
-                                                disabled={claimingNft ? 1 : 0}
-                                                onClick={(e) => {
-                                                    e.preventDefault();
-                                                    claimNFTs();
-                                                    getData();
-                                                }}
-                                            >
-                                                {claimingNft ? "PROCESSING" : "PUBLIC MINT (3 FREE)"}
-                                            </StyledButton>
-                                        </s.Container>
 
                                         <s.SpacerSmall />
 
@@ -675,18 +662,6 @@ function App() {
                                                 }}
                                             >
                                                 {claimingNft ? "PROCESSING" : "WL MINT"}
-                                            </StyledButton>
-                                        </s.Container>
-
-                                        <s.SpacerSmall />
-
-                                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                                            <StyledButton
-                                                onClick={(e) => {
-                                                    checkTokens();
-                                                }}
-                                            >
-                                                {"REFRESH"}
                                             </StyledButton>
                                         </s.Container>
 
@@ -740,7 +715,7 @@ function App() {
                         <a target="_blank" href={CONFIG.MARKETPLACE_LINK}>
                             <LogoButtonImg src="/config/images/OS_LOGO.png" />
                         </a>
-                        <a target="_blank" href="https://twitter.com/mosaic_birds">
+                        <a target="_blank" href="https://twitter.com/metalamboz">
                             <LogoButtonImg src="/config/images/TWIT_LOGO.png" />
                         </a>
                         <a target="_blank" href={CONFIG.SCAN_LINK}>
