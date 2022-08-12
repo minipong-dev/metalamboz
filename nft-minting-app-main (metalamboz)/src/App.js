@@ -88,13 +88,7 @@ export const StyledImg = styled.img`
   
   width: 250px;
   @media (min-width: 900px) {
-    width: 100%;
-  }
-  @media (min-width: 1000px) {
-    width: 300px;
-  }
-  @media (min-width: 1440px) {
-    width: 500px;
+    width: 85%;
   }
 `;
 
@@ -415,16 +409,14 @@ function App() {
                 >
 
                     <br />
-                    <br />
                     <StyledLogo alt={"logo"} src={"/config/images/animated_logo.gif"} />
-                    <br />
                     <br />
 
 
                 </s.TextTitle>
 
                 <div class="flexbox-container">
-                    <div class="flexbox-item">
+                    <div class="flexbox-item flexbox-item-1">
                         <StyledImg alt={"example"} src={"/config/images/lambo.jpeg"} />
                     </div>
                     <div class="flexbox-item flexbox-item-1">
@@ -436,10 +428,10 @@ function App() {
                                 fontWeight: "normal",
                                 fontFamily: "customfont",
                                 fontSize: "32px"
-
                             }}
                         >
-                            METALAMBBBBOOOOOOZZZZ
+                            Metalamboz Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         </s.TextDescription>
                     </div>
                 </div>
