@@ -398,7 +398,7 @@ function App() {
                 flex={1}
                 ai={"center"}
 
-                image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
+                image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
 
 
             >
@@ -416,7 +416,7 @@ function App() {
 
                     <br />
                     <br />
-                    <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+                    <StyledLogo alt={"logo"} src={"/config/images/animated_logo.gif"} />
                     <br />
                     <br />
 
@@ -425,7 +425,7 @@ function App() {
 
                 <div class="flexbox-container">
                     <div class="flexbox-item">
-                        <StyledImg alt={"example"} src={"/config/images/example.jpg"} />
+                        <StyledImg alt={"example"} src={"/config/images/lambo.jpeg"} />
                     </div>
                     <div class="flexbox-item flexbox-item-1">
                         <s.TextDescription
