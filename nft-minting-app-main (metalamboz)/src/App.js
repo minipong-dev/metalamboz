@@ -90,6 +90,9 @@ export const StyledImg = styled.img`
   @media (min-width: 900px) {
     width: 85%;
   }
+  @media (min-width: 1440px) {
+    width: 470px;
+  }
 `;
 
 export const StyledTeamImg = styled.img`
