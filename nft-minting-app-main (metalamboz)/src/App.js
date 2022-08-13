@@ -215,7 +215,7 @@ function App() {
         let totalGasLimit = String(gasLimit * mintAmount);
         console.log("Cost: ", totalCostWei);
         console.log("Gas limit: ", totalGasLimit);
-        setFeedback(`Enjoy your ${CONFIG.NFT_NAME}...`);
+        setFeedback(`Prepare to get rugged...`);
         setClaimingNft(true);
         blockchain.smartContract.methods
             .PUBLIC_MINT(mintAmount)
@@ -228,14 +228,12 @@ function App() {
             })
             .once("error", (err) => {
                 console.log(err);
-                setFeedback("Sorry, something went wrong please try again later.");
+                setFeedback("Sorry, something went wrong. We were unable to rug you.");
                 setClaimingNft(false);
             })
             .then((receipt) => {
                 console.log(receipt);
-                setFeedback(
-                    `Enter The ${CONFIG.NFT_NAME}.`
-                );
+                setFeedback(`You just got rugged. Bitch.`);
                 setClaimingNft(false);
                 dispatch(fetchData(blockchain.account));
             });
@@ -254,7 +252,7 @@ function App() {
         let totalGasLimit = String(gasLimit * freeMintAmount);
         console.log("Cost: ", totalCostWei);
         console.log("Gas limit: ", totalGasLimit);
-        setFeedback(`Enjoy your ${CONFIG.NFT_NAME}...`);
+        setFeedback(`Prepare to get rugged...`);
         setClaimingNft(true);
         blockchain.smartContract.methods
             .mint(freeMintAmount)
@@ -267,14 +265,12 @@ function App() {
             })
             .once("error", (err) => {
                 console.log(err);
-                setFeedback("Sorry, something went wrong please try again later.");
+                setFeedback("Sorry, something went wrong. We were unable to rug you.");
                 setClaimingNft(false);
             })
             .then((receipt) => {
                 console.log(receipt);
-                setFeedback(
-                    `Enter The ${CONFIG.NFT_NAME}.`
-                );
+                setFeedback(`You just got rugged. Bitch.`);
                 setClaimingNft(false);
                 dispatch(fetchData(blockchain.account));
             });
@@ -292,7 +288,7 @@ function App() {
         let totalGasLimit = String(gasLimit * freeMintAmount);
         console.log("Cost: ", totalCostWei);
         console.log("Gas limit: ", totalGasLimit);
-        setFeedback(`Enjoy your ${CONFIG.NFT_NAME}...`);
+        setFeedback(`Prepare to get rugged...`);
         setClaimingNft(true);
 
         //contract.methods.safeMint(address, proof).send({ from: address }) // will be called on click of the mint button
@@ -310,14 +306,12 @@ function App() {
             })
             .once("error", (err) => {
                 console.log(err);
-                setFeedback("Sorry, something went wrong please try again later.");
+                setFeedback("Sorry, something went wrong. We were unable to rug you.");
                 setClaimingNft(false);
             })
             .then((receipt) => {
                 console.log(receipt);
-                setFeedback(
-                    `Enter The ${CONFIG.NFT_NAME}.`
-                );
+                setFeedback(`You just got rugged. Bitch.`);
                 setClaimingNft(false);
                 dispatch(fetchData(blockchain.account));
             });*/
