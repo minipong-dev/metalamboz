@@ -414,7 +414,10 @@ function App() {
 
                 <div class="flexbox-container">
                     <div class="flexbox-item flexbox-item-1">
-                        <StyledImg alt={"example"} src={"/config/images/lambo.jpeg"} />
+                        <StyledImg alt={"Space Car"} src={"/config/images/space_car_fly_2.gif"} style={{
+                            borderRadius: "50px",
+                            border: "0px"
+                        }}/>
                     </div>
                     <div class="flexbox-item flexbox-item-1">
                         <s.TextDescription
@@ -699,7 +702,7 @@ function App() {
                     >
 
 
-                        <br />
+                        {/* <br />
                         <br />
                         <a target="_blank" href={CONFIG.MARKETPLACE_LINK}>
                             <LogoButtonImg src="/config/images/OS_LOGO.png" />
@@ -711,13 +714,13 @@ function App() {
                             <LogoButtonImg src="/config/images/SCAN_LOGO.png" />
                         </a>
                         <br />
-                        <br />
+                        <br /> */}
                         <a style={{
                             display: "flex",
                             justifyContent: "left",
                             textAlign: "left",
 
-                        }} target="_blank" href="https://twitter.com/viperwarelabs">
+                        }} target="_blank" href="https://viperware.xyz">
                             <FooterLogo alt={"Viperware"} src={"/config/images/ViperwareLogo.png"} />
                         </a>
 
