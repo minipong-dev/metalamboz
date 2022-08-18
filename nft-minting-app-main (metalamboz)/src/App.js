@@ -122,7 +122,7 @@ export const FooterLink = styled.a`
 `;
 
 export const FooterLogo = styled.img`
-  width: 100px;
+  width: 170px;
 `;
 
 
@@ -430,20 +430,17 @@ function App() {
                                 fontSize: "32px"
                             }}
                         >
-                            Metalamboz Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            Metalamboz
                         </s.TextDescription>
                     </div>
                 </div>
 
 
-
-                <s.SpacerSmall />
                 <ResponsiveWrapper flex={1} style={{ padding: 25 }} test>
-                    <s.Container flex={1} jc={"center"} ai={"center"}>
+                    {/* <s.Container flex={1} jc={"center"} ai={"center"}>
 
                     </s.Container>
-                    <s.SpacerLarge />
+                    <s.SpacerLarge /> */}
                     <s.Container
 
                         flex={1}
@@ -661,16 +658,16 @@ function App() {
                                 )}
                             </>
                         )}
-                        <s.SpacerMedium />
+                    <s.SpacerMedium />
                     </s.Container>
                     <s.SpacerLarge />
-                    <s.Container flex={1} jc={"center"} ai={"center"}>
+                    {/* <s.Container flex={1} jc={"center"} ai={"center"}>
 
-                    </s.Container>
+                    </s.Container> */}
                 </ResponsiveWrapper>
                 <s.Container jc={"center"} ai={"left"} style={{ width: "90%" }}>
 
-                    <s.TextDescription
+                    {/* <s.TextDescription
 
                         style={{
                             textAlign: "center",
@@ -685,7 +682,7 @@ function App() {
 
 
 
-                    </s.TextDescription>
+                    </s.TextDescription> */}
 
 
                     <s.TextDescription
