@@ -28,7 +28,6 @@
 .flexbox-item {
   display: flex;
   flex-flow: row wrap;
-  width: 50%;
   justify-content: center;
   align-items: center;
 }
