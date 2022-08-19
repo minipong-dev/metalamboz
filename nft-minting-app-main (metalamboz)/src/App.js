@@ -424,7 +424,8 @@ function App() {
                                 color: "white",
                                 fontWeight: "normal",
                                 fontFamily: "customfont",
-                                fontSize: "32px"
+                                fontSize: "32px",
+                                width: "60%"
                             }}
                         >
                             
