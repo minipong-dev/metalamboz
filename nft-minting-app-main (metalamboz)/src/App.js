@@ -432,8 +432,9 @@ function App() {
                             borderRadius: "50px",
                             border: "0px"
                         }}/>
+                            <br/>
                             You've made it this far racer. We are only a few mints away from freeing my dad.<br/>
-                            Dylan thought he could keep him forever but today we will prove him wrong. Will you join me on this valiant quest?
+                            Dylan thought he could keep him forever but today we will prove him wrong. Will you join me on this valiant quest?<br/>
 
                         </s.TextDescription>
                     </div>
