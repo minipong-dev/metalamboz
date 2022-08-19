@@ -87,11 +87,12 @@ export const StyledImg = styled.img`
   border: 5px #000000 solid;
   
   width: 250px;
+  
   @media (min-width: 900px) {
     width: 85%;
   }
   @media (min-width: 1440px) {
-    width: 470px;
+    width: 600px;
   }
 `;
 
@@ -406,7 +407,7 @@ function App() {
                 >
 
                     <br />
-                    <StyledLogo alt={"logo"} src={"/config/images/animated_logo.gif"} />
+                    {/* <StyledLogo alt={"logo"} src={"/config/images/animated_logo.gif"} /> */}
                     <br />
 
 
@@ -430,7 +431,9 @@ function App() {
                                 fontSize: "32px"
                             }}
                         >
-                            Metalamboz
+                            You've made it this far racer. We are only a few mints away from freeing my dad.<br/>
+                            Dylan thought he could keep him forever but today we will prove him wrong. Will you join me on this valiant quest?
+
                         </s.TextDescription>
                     </div>
                 </div>
