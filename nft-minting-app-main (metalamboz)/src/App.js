@@ -87,7 +87,7 @@ export const StyledImg = styled.img`
   border: 5px #000000 solid;
   
   width: 250px;
-  
+
   @media (min-width: 900px) {
     width: 85%;
   }
@@ -414,12 +414,8 @@ function App() {
                 </s.TextTitle>
 
                 <div class="flexbox-container">
-                    <div class="flexbox-item flexbox-item-1">
-                        <StyledImg alt={"Space Car"} src={"/config/images/space_car_fly_2.gif"} style={{
-                            borderRadius: "50px",
-                            border: "0px"
-                        }}/>
-                    </div>
+                    {/* <div class="flexbox-item flexbox-item-1">
+                    </div> */}
                     <div class="flexbox-item flexbox-item-1">
                         <s.TextDescription
 
@@ -431,6 +427,11 @@ function App() {
                                 fontSize: "32px"
                             }}
                         >
+                            
+                        <StyledImg alt={"Space Car"} src={"/config/images/space_car_fly_2.gif"} style={{
+                            borderRadius: "50px",
+                            border: "0px"
+                        }}/>
                             You've made it this far racer. We are only a few mints away from freeing my dad.<br/>
                             Dylan thought he could keep him forever but today we will prove him wrong. Will you join me on this valiant quest?
 
