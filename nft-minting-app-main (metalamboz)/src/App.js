@@ -355,10 +355,18 @@ function App() {
     const updateWhitelist = () => {
         var checkAddr = blockchain.account;
         var print = checkAddr.substring(0, 6) + "...." + checkAddr.substring(checkAddr.length - 4, checkAddr.length);
-
         setAddrWL(print);
 
-        if (listedAddrs.includes(checkAddr)) {
+        var whitelisted = false;
+        listedAddrs.forEach(checkList);
+        
+        function checkList(item, index) {
+            if (item.toString().toLowerCase() == checkAddr.toString().toLowerCase()) {
+                whitelisted = true;
+            }
+        }
+
+        if (whitelisted) {
             setWL("Congrats racer. You are LamboListed!");
         }
         else {
@@ -463,9 +471,8 @@ function App() {
                                 width: "100%"
                             }}
                         >
-                            Whitelist Status:<br/>
                             &lt; {whitelistStatus} &gt;<br/>
-                            {whitelistAddr}<br/>
+                            {whitelistAddr}<br/><br/>
 
                             <StyledButton
                                 style={{
