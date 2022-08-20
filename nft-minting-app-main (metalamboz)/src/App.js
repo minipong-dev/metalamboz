@@ -354,7 +354,7 @@ function App() {
 
     const updateWhitelist = () => {
         var checkAddr = blockchain.account;
-        let print = checkAddr.substring(0, 6) + "...." + text.substring(checkAddr.length - 4, checkAddr.length);
+        var print = checkAddr.substring(0, 6) + "...." + checkAddr.substring(checkAddr.length - 4, checkAddr.length);
 
         setAddrWL(print);
 
