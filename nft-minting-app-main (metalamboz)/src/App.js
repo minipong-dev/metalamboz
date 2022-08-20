@@ -423,7 +423,7 @@ function App() {
                                 color: "white",
                                 fontWeight: "normal",
                                 fontFamily: "customfont",
-                                fontSize: "24x",
+                                fontSize: "24px",
                                 width: "70%"
                             }}
                         >
